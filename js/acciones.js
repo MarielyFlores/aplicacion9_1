@@ -1,5 +1,5 @@
 // JavaScript Document
-$(document).ready(function(e) {
+$(document).ready(function (e){
     //watchID se refiere a actual
 	
 	var watchID=null;
@@ -42,8 +42,8 @@ $(document).ready(function(e) {
 		alert('Error!');
 	}
 	//Exito al localizar 
-	function Localizar(posicion){
-		var alement=document.getElementById('geolocalizacion');
+	function Localiza(posicion){
+		var element=document.getElementById('geolocalizacion');
 		element.innerHTML='Latitud:'+posicion.coords.latitude +'<br/>'+
 		'Longitud:'+posicion.coords.longitude +'<br/>'+
 		'Precision:'+posicion.coords.accuracy +'<br/>'+
